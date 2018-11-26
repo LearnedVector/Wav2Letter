@@ -11,9 +11,9 @@ The `Google Speech Command Example.ipynb` notebook contains an example of this i
 
 ## TODO
 
-* Implement AutoSeg Decoder
+* Implement AutoSegCriterion
 * Implement Beam Search Decoder
-* Use KenLM Langauge Model
+* Use KenLM Langauge Model in Decoder
 * Use larger datasets
 * Use Cuda (right now runs on CPU)
 
