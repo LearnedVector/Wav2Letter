@@ -11,6 +11,7 @@ The [Google Speech Command Example.ipynb](https://github.com/LearnedVector/Wav2L
 
 ## TODO
 
+* Implement Train, Validation, Test sets
 * Implement AutoSegCriterion
 * Implement Beam Search Decoder
 * Use KenLM Langauge Model in Decoder
