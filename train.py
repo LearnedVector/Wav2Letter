@@ -32,8 +32,8 @@ def train(batch_size, epochs):
     print("grapheme_count", grapheme_count)
 
     # torch tensors
-    inputs = torch.Tensor(_inputs)[:100]
-    targets = torch.IntTensor(_targets)[:100]
+    inputs = torch.Tensor(_inputs)
+    targets = torch.IntTensor(_targets)
 
     print("input shape", inputs.shape)
     print("target shape", targets.shape)
