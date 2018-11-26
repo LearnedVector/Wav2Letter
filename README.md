@@ -2,7 +2,7 @@
 
 This is a Wav2Letter implmentation based off of Facebooks AI Research (FAIR) [paper](https://arxiv.org/pdf/1609.03193.pdf). You can see most of the architecture in the `Wav2Letter` directory.
 
-The `Google Speech Command Example.ipynb` notebook contains an example of this implementation.
+The [Google Speech Command Example.ipynb](https://github.com/LearnedVector/Wav2Letter/blob/master/Google%20Speech%20Command%20Example.ipynb) notebook contains an example of this implementation.
 
 ## Differences
 
