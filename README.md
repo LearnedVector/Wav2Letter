@@ -19,8 +19,6 @@ The `Google Speech Command Example.ipynb` notebook contains an example of this i
 
 ## Getting Started
 
-------
-
 ## Requirements
 
 ```bash
