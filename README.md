@@ -1,8 +1,16 @@
-# Wav2Letter Speech Recognition with Pytorch
+# Precise2 Wakeword Engine
 
-This is a Wav2Letter implmentation based off of Facebooks AI Research (FAIR) [paper](https://arxiv.org/pdf/1609.03193.pdf). You can see most of the architecture in the `Wav2Letter` directory.
+Precise2 is based off of Wav2Letter, a speech recognition model from Facebooks AI Research (FAIR) [paper](https://arxiv.org/pdf/1609.03193.pdf). You can see most of the architecture in the `Wav2Letter` directory.
+
+This the next iteration can be found in this [paper](https://arxiv.org/abs/1712.09444)
 
 The [Google Speech Command Example.ipynb](https://github.com/LearnedVector/Wav2Letter/blob/master/Google%20Speech%20Command%20Example.ipynb) notebook contains an example of this implementation.
+
+Precise2 predicts individual characters allowing a more generalized WakeWord Engine where users should be able to set there own custom wake-word without having to train.
+
+<p align="center">
+  <img src="Wav2Letter-diagram.png" alt="Precise 2 Diagram" height="700"/>
+</p>
 
 ## Differences
 
@@ -12,11 +20,12 @@ The [Google Speech Command Example.ipynb](https://github.com/LearnedVector/Wav2L
 ## TODO
 
 * Implement Train, Validation, Test sets
+* Test on larger speech data
 * Implement AutoSegCriterion
 * Implement Beam Search Decoder
 * Use KenLM Langauge Model in Decoder
 * Use larger datasets
-* Use Cuda (right now runs on CPU)
+* Add Gated ConvNets
 
 ## Getting Started
 
@@ -65,3 +74,7 @@ This will process the google speech commands audio data into 13 mfcc features wi
 ```bash
 python train.py --batch_size=256 --epochs=1000
 ```
+
+## Contributions
+
+Pull Requests are accepted! I would love some help to knock out the Todo's. Email me at learnedvector@gmail.com for any questions.
