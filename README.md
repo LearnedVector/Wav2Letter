@@ -1,4 +1,4 @@
-# Precise2 Wakeword Engine
+# Wav2Letter Speech Recognition with Pytorch
 
 Precise2 is based off of Wav2Letter, a speech recognition model from Facebooks AI Research (FAIR) [paper](https://arxiv.org/pdf/1609.03193.pdf). You can see most of the architecture in the `Wav2Letter` directory.
 
