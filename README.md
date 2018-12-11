@@ -1,6 +1,6 @@
 # Wav2Letter Speech Recognition with Pytorch
 
-Simple, straight forard, easy to read implementation of Wav2Letter, a speech recognition model from Facebooks AI Research (FAIR) [paper](https://arxiv.org/pdf/1609.03193.pdf). You can see most of the architecture in the `Wav2Letter` directory.
+A Simple, straight forward, easy to read implementation of Wav2Letter, a speech recognition model from Facebooks AI Research (FAIR) [paper](https://arxiv.org/pdf/1609.03193.pdf). You can see most of the architecture in the `Wav2Letter` directory.
 
 This the next iteration can be found in this [paper](https://arxiv.org/abs/1712.09444)
 
