@@ -45,7 +45,7 @@ Make sure you are using pytorch-nightly (version 1.0 alpha). This has the CTC_Lo
 python smoke_test.py
 ```
 
-This will train a model on randomly generated inputs and target generated data. If everyhing is workign correctly, expect to see outputs of the predicted and target labels. Of course expect the outputs to be garbage.
+This will train a model on randomly generated inputs and target generated data. If everyhing is working correctly, expect to see outputs of the predicted and target labels. Of course expect the outputs to be garbage.
 
 ## Data
 
