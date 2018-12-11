@@ -2,7 +2,7 @@
 
 A Simple, straight forward, easy to read implementation of Wav2Letter, a speech recognition model from Facebooks AI Research (FAIR) [paper](https://arxiv.org/pdf/1609.03193.pdf). You can see most of the architecture in the `Wav2Letter` directory.
 
-This the next iteration can be found in this [paper](https://arxiv.org/abs/1712.09444)
+The next iteration of Wav2Letter can be found in this [paper](https://arxiv.org/abs/1712.09444). This paper uses Gated Convnets instead of normal Convnets.
 
 The [Google Speech Command Example.ipynb](https://github.com/LearnedVector/Wav2Letter/blob/master/Google%20Speech%20Command%20Example.ipynb) notebook contains an example of this implementation.
 
