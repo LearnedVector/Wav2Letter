@@ -6,8 +6,6 @@ The next iteration of Wav2Letter can be found in this [paper](https://arxiv.org/
 
 The [Google Speech Command Example.ipynb](https://github.com/LearnedVector/Wav2Letter/blob/master/Google%20Speech%20Command%20Example.ipynb) notebook contains an example of this implementation.
 
-Precise2 predicts individual characters allowing a more generalized WakeWord Engine where users should be able to set there own custom wake-word without having to train.
-
 <p align="center">
   <img src="Wav2Letter-diagram.png" alt="Precise 2 Diagram" height="700"/>
 </p>
